@@ -16,7 +16,12 @@ class Ship():
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
-
     def blitme(self):
         """在指定位置绘制飞船"""
         self.screen.blit(self.image, self.rect)
+
+        def blitme1(self):
+            """在指定位置绘制飞船"""
+            self.screen.blit(self.image, self.rect)
+
+        # 测试可以提交git
