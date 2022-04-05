@@ -1,13 +1,10 @@
 # -*- coding: UTF-8 -*-
 
-import sys
-
 import pygame
 
 from settings import Settings
 from ship import Ship
 import game_functions as gf
-
 
 
 def run_game():
@@ -29,5 +26,6 @@ def run_game():
 
         # 让最近绘制的屏幕可见
         pygame.display.flip()
+
 
 run_game()
