@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1af1b3b-8d17-4d88-999f-f7da1f7261c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="27K6O7VWjHc3RW49D2rz3P0PRbT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="alien_invasion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alien_invasion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.alien_invasion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1af1b3b-8d17-4d88-999f-f7da1f7261c8" name="Default Changelist" comment="" />
+      <created>1649056395785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649056395785</updated>
+      <workItem from="1649065569416" duration="8000" />
+      <workItem from="1649065596196" duration="318000" />
+      <workItem from="1649068104248" duration="238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="189" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649064406286">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="189" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.790@0.25.1440.790" timestamp="1649064406286" />
+    <state x="479" y="189" key="EnvironmentVariablesDialog" timestamp="1649064389114">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="479" y="189" key="EnvironmentVariablesDialog/0.25.1440.790@0.25.1440.790" timestamp="1649064389114" />
+    <state x="373" y="332" key="FileChooserDialogImpl" timestamp="1649128224108">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="373" y="332" key="FileChooserDialogImpl/0.25.1440.790@0.25.1440.790" timestamp="1649128224108" />
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom" timestamp="1649139220617">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="284" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1649139220617" />
+    <state width="1398" height="284" key="GridCell.Tab.0.center" timestamp="1649139220616">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="284" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1649139220616" />
+    <state width="1398" height="284" key="GridCell.Tab.0.left" timestamp="1649139220615">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="284" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1649139220615" />
+    <state width="1398" height="284" key="GridCell.Tab.0.right" timestamp="1649139220617">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1398" height="284" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1649139220617" />
+    <state x="233" y="56" key="SettingsEditor" timestamp="1649138654249">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="233" y="56" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1649138654249" />
+  </component>
+</project>
