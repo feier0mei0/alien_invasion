@@ -14,7 +14,7 @@ def run_game():
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
 
-    ship = Ship(screen)
+    ship = Ship(ai_settings, screen)
 
     # 开始游戏的主循环
     try:
@@ -25,7 +25,6 @@ def run_game():
             gf.update_screen(ai_settings, screen, ship)
     except KeyboardInterrupt:
         pass
-
 
 
 run_game()
