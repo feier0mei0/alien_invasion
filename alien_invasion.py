@@ -20,6 +20,7 @@ def run_game():
     try:
         while True:
             gf.check_event(ship)
+            ship.update()
 
             gf.update_screen(ai_settings, screen, ship)
     except KeyboardInterrupt:
