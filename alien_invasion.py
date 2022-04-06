@@ -17,10 +17,14 @@ def run_game():
     ship = Ship(screen)
 
     # 开始游戏的主循环
-    while True:
-        gf.check_event()
+    try:
+        while True:
+            gf.check_event(ship)
 
-        gf.update_screen(ai_settings, screen, ship)
+            gf.update_screen(ai_settings, screen, ship)
+    except KeyboardInterrupt:
+        pass
+
 
 
 run_game()
