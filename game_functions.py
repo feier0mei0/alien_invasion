@@ -55,3 +55,14 @@ def update_screen(ai_settings, screen, ship, bullets):
         pygame.display.flip()
     except KeyboardInterrupt:
         pass
+
+
+def update(bullets):
+    # 更新子弹的位置，并删除已消失的子弹
+    # 更新子弹位置
+    bullets.update()
+
+    # 删除已消失的子弹
+    for bullet in bullets.copy():
+        if bullet.rect.bottom <= 0:
+            bullets.remove(bullet)
