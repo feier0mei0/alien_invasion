@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1af1b3b-8d17-4d88-999f-f7da1f7261c8" name="Default Changelist" comment="">
+    <list default="true" id="f1af1b3b-8d17-4d88-999f-f7da1f7261c8" name="Default Changelist" comment="添加子弹及发射子弹的效果">
+      <change afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +39,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/.git" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager" selected="Python.alien_invasion">
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649425740767</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加子弹及发射子弹的效果">
+      <created>1649501550525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649501550525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -231,7 +237,8 @@
     <MESSAGE value="修复飞船会移出屏幕的问题" />
     <MESSAGE value="重构check_event函数，拆分为check_keydown_event、vcheck_keyup_event两个函数" />
     <MESSAGE value="check_keydown_event、check_keyup_event两个函数中的判断写错了，修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="check_keydown_event、check_keyup_event两个函数中的判断写错了，修正" />
+    <MESSAGE value="添加子弹及发射子弹的效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加子弹及发射子弹的效果" />
   </component>
   <component name="WindowStateProjectService">
     <state x="189" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649064406286">
@@ -242,10 +249,10 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="462" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.790@0.25.1440.790" timestamp="1649424827246" />
-    <state x="348" y="25" width="752" height="790" key="CommitChangelistDialog2" timestamp="1649425740622">
+    <state x="287" y="25" width="752" height="790" key="CommitChangelistDialog2" timestamp="1649501822192">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="348" y="25" width="752" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1649425740622" />
+    <state x="287" y="25" width="752" height="790" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1649501822192" />
     <state x="479" y="189" key="EnvironmentVariablesDialog" timestamp="1649064389114">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
@@ -258,22 +265,22 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="580" y="317" key="Github.ShareDialog/0.25.1440.790@0.25.1440.790" timestamp="1649149008685" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1649496256319">
+    <state width="1398" height="87" key="GridCell.Tab.0.bottom" timestamp="1649501633149">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1649496256319" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1649496256319">
+    <state width="1398" height="87" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1649501633149" />
+    <state width="1398" height="87" key="GridCell.Tab.0.center" timestamp="1649501633149">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1649496256319" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1649496256318">
+    <state width="1398" height="87" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1649501633149" />
+    <state width="1398" height="87" key="GridCell.Tab.0.left" timestamp="1649501633148">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1649496256318" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1649496256319">
+    <state width="1398" height="87" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1649501633148" />
+    <state width="1398" height="87" key="GridCell.Tab.0.right" timestamp="1649501633149">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1649496256319" />
+    <state width="1398" height="87" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1649501633149" />
     <state width="1398" height="178" key="GridCell.Tab.1.bottom" timestamp="1649496144234">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
@@ -298,10 +305,10 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="393" y="33" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1649153879152" />
-    <state x="324" y="157" key="Vcs.Push.Dialog.v2" timestamp="1649425742815">
+    <state x="324" y="157" key="Vcs.Push.Dialog.v2" timestamp="1649501552585">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="324" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1649425742815" />
+    <state x="324" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1649501552585" />
     <state x="510" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649424863431">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
