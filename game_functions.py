@@ -47,11 +47,12 @@ def check_event(ai_settings, screen, ship, bullets):
             check_keyup_events(event, ship)
 
 
-def update_screen(ai_settings, screen, ship, bullets):
+def update_screen(ai_settings, screen, ship, alien, bullets):
     """更新屏幕上的图像，并切换到新屏幕"""
     # 每次循环时都重绘屏幕
     screen.fill(ai_settings.bg_color)
     ship.blitme()
+    alien.blitme()
 
     # 在飞船和外星人后面重绘所有子弹
     for bullet in bullets:
