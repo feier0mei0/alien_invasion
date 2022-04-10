@@ -6,4 +6,4 @@
 *.log
 *.iml
 /workspace.xml
-/.pyc
+*.pyc
