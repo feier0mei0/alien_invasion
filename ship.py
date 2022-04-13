@@ -44,3 +44,7 @@ class Ship():
             self.screen.blit(self.image, self.rect)
         except KeyboardInterrupt:
             pass
+
+    def center_ship(self):
+        """让飞船在屏幕上居中"""
+        self.center = self.screen_rect.centerx
