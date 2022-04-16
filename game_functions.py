@@ -147,6 +147,7 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
     if stats.ships_left > 0:
         # ship_left减1
         stats.ships_left -= 1
+        print("stats.ships_left:" + str(stats.ships_left))
 
         # 清空外星人列表和子弹列表
         aliens.empty()
@@ -160,6 +161,7 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
         sleep(0.5)
     else:
         stats.game_active = False
+        print("stats.game_active = False")
 
 
 def check_aliiens_bottom(ai_settings, stats, screen, ship, aliens, bullets):

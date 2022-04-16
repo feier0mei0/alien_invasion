@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 import pygame
+import sys
 
 from pygame.sprite import Group
 from settings import Settings
@@ -35,6 +36,8 @@ def run_game():
 
             gf.update_bullets(ai_settings, screen, ship, aliens, bullets)
             gf.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
+        else:
+            sys.exit()
         gf.update_screen(ai_settings, screen, ship, aliens, bullets)
 
 
