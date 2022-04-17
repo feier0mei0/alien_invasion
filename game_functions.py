@@ -36,7 +36,7 @@ def check_keyup_events(event, ship):
         ship.moving_left = False
 
 
-def check_event(ai_settings, screen, ship, bullets):
+def check_events(ai_settings, screen, stats, play_button, ship, bullets):
     """响应按键和鼠标事件"""
     for event in pygame.event.get():
         if event == pygame.QUIT:
@@ -48,8 +48,18 @@ def check_event(ai_settings, screen, ship, bullets):
         elif event.type == pygame.KEYUP:
             check_keyup_events(event, ship)
 
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x, mouse_y = pygame.mouse.get_pos()
+            check_play_button(stats, play_button, mouse_x, mouse_y)
 
-def update_screen(ai_settings, screen, ship, aliens, bullets):
+
+def check_play_button(stats, play_button, mouse_x, mouse_y):
+    """在玩家单击play按钮时开始新游戏"""
+    if play_button.rect.collidepoint(mouse_x, mouse_y):
+        stats.game_active = True
+
+
+def update_screen(ai_settings, screen, stats, ship, aliens, bullets, play_button):
     """更新屏幕上的图像，并切换到新屏幕"""
     # 每次循环时都重绘屏幕
     screen.fill(ai_settings.bg_color)
@@ -59,6 +69,10 @@ def update_screen(ai_settings, screen, ship, aliens, bullets):
     # 在飞船和外星人后面重绘所有子弹
     for bullet in bullets:
         bullet.draw_bullet()
+
+    # 如果游戏处于非活动状态，就绘制Play按钮
+    if not stats.game_active:
+        play_button.draw_button()
 
     # 让最近绘制的屏幕可见
     try:
@@ -144,6 +158,7 @@ def change_fleet_direction(ai_settings, aliens):
 
 def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
     """响应被外星人撞到的飞船"""
+    # 外星人到达底部、或外星人和飞船碰撞时，调用该方法
     if stats.ships_left > 0:
         # ship_left减1
         stats.ships_left -= 1
