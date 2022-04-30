@@ -13,6 +13,12 @@ from scoreboard import Scoreboard
 
 
 def run_game():
+    """实现功能
+    1.飞船将子弹打完，等级加+1
+    2.飞船被子弹打掉（子弹会自动向下移动打飞船，若子弹碰到飞船，则飞船被打掉），飞船数-1
+    3.若飞船全部被打掉，则游戏重置，游戏最高值继续保持，当前局游戏值被重置为0，可以点击Play继续游戏
+
+    """
     # 初始化游戏，创建屏幕对象
     pygame.init()
     ai_settings = Settings()
