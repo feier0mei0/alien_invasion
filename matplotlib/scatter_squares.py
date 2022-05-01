@@ -6,7 +6,7 @@ x_values = list(range(1, 1001))
 y_values = [x**2 for x in x_values]
 
 # edgecolor='none'，删除数据点的轮廓，黑色变为蓝色
-plt.scatter(x_values, y_values, c=(0, 0, 0.9), edgecolor='none', s=40)
+plt.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, edgecolor='none', s=40)
 
 # 设置图表标题并给坐标轴加标签
 plt.title("Squares Numbers1", fontsize=24)
